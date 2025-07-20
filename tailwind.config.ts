@@ -52,16 +52,20 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				// 90s Retro Colors
+				'neon-lime': 'hsl(var(--neon-lime))',
+				'neon-pink': 'hsl(var(--neon-pink))',
+				'electric-blue': 'hsl(var(--electric-blue))',
+				'cyber-purple': 'hsl(var(--cyber-purple))'
+			},
+			fontFamily: {
+				'comic': ['Comic Sans MS', 'cursive'],
+				'pixel': ['Courier New', 'monospace'],
+			},
+			backgroundImage: {
+				'gradient-retro': 'var(--gradient-retro)',
+				'gradient-neon': 'var(--gradient-neon)',
+				'gradient-cyber': 'var(--gradient-cyber)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
